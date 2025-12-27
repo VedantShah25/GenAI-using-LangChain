@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 llm = HuggingFaceEndpoint(
-    repo_id="TinyLlama/TinyLlama-1.1B-Chat-v1.0",
+    repo_id="meta-llama/Llama-3.2-1B-Instruct",
     task="text-generation"
 )
 
